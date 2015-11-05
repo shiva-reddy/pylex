@@ -1,0 +1,13 @@
+import re
+import sys
+print "CHARACTER"
+print "EQUAL"
+print "LPAREN"
+print "LBRACE"
+print "DIGIT"
+print "PLUS"
+print "DIGIT"
+print "RBRACE"
+print "PLUS"
+print "CHARACTER"
+print "RPAREN"

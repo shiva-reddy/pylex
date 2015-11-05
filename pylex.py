@@ -11,7 +11,7 @@ def get_regex_dic(file_lines):
 				flag = 1
 				continue
 		if flag:
-			words=line.split('=')
+			words=line.split('=',1)
 			dic[words[0]]=words[1]
 
 def get_command_dic(file_lines):
